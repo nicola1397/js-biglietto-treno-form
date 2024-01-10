@@ -60,5 +60,5 @@ document.getElementById("send").addEventListener("click", function () {
   document.getElementById("code").innerText =
     Math.floor(Math.random() * 99999) + 1;
   // PREZZO
-  document.getElementById("priceNew").innerHTML = discounted;
+  document.getElementById("priceNew").innerHTML = discounted + " €";
 });
