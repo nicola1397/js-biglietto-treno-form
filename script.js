@@ -62,3 +62,8 @@ document.getElementById("send").addEventListener("click", function () {
   // PREZZO
   document.getElementById("priceNew").innerHTML = discounted + " €";
 });
+
+// HIDE CARD ON RESET
+document.getElementById("reset").addEventListener("click", function () {
+  showTicket.classList.add("d-none");
+});
