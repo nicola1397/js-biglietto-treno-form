@@ -13,11 +13,13 @@
     />
   </head>
   <body class="bg-danger">
+    <!-- SEZIONE INSERIMENTO DATI -->
     <h1 class="text-center text-white my-3">INSERISCI I TUOI DATI</h1>
 
     <div class="w-75 mx-auto bg-white p-5 rounded-3 shadow-lg">
       <form>
         <div class="row">
+          <!-- INPUT NOME -->
           <div class="col-4 text-center">
             <label for="inputName" class="form-label text-danger fs-5"
               >Nome e Cognome</label
@@ -29,6 +31,7 @@
               id="inputName"
             />
           </div>
+          <!-- INPUT DISTANZA  -->
           <div class="col-4 text-center">
             <label for="distance" class="form-label text-danger fs-5"
               >Distanza</label
@@ -40,6 +43,7 @@
               id="distance"
             />
           </div>
+          <!-- INPUT ANNI -->
           <div class="col-4 text-center">
             <label for="anni" class="form-label text-danger fs-5"
               >La tua età</label
@@ -51,6 +55,7 @@
             </select>
           </div>
         </div>
+        <!-- PULSANTI -->
         <div class="text-center mt-4">
           <button
             type="button"
@@ -66,9 +71,13 @@
       </form>
     </div>
 
+    <!-- SEZIONE BIGLIETTO -->
     <h2 class="text-center text-white my-3">IL TUO BIGLIETTO</h2>
 
-    <div class="w-75 mx-auto bg-white p-5 rounded-3 shadow-lg">
+    <div
+      class="w-75 mx-auto bg-white p-5 rounded-3 shadow-lg d-none"
+      id="ticket"
+    >
       <h3>DETTAGLIO PASSEGGERI</h3>
       <!-- TABELLA -->
       <table class="table mx-auto">
